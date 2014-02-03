@@ -10,8 +10,6 @@
 		3003932F17BA7833000912DE /* error_message.html in Resources */ = {isa = PBXBuildFile; fileRef = 3003932E17BA7833000912DE /* error_message.html */; };
 		304CBCCD1739287300C562F6 /* WebView+PhFacebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 304CBCCB1739287300C562F6 /* WebView+PhFacebook.h */; };
 		304CBCCE1739287300C562F6 /* WebView+PhFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 304CBCCC1739287300C562F6 /* WebView+PhFacebook.m */; };
-		309CA11217731DBA008897F3 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 309CA11017731DBA008897F3 /* JSONKit.h */; };
-		309CA11317731DBA008897F3 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 309CA11117731DBA008897F3 /* JSONKit.m */; };
 		30A879E317BBA671006580CF /* error_message.css in Resources */ = {isa = PBXBuildFile; fileRef = 30A879E217BBA671006580CF /* error_message.css */; };
 		374AB110122CB847004A5C23 /* Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 374AB10F122CB846004A5C23 /* Debug.h */; };
 		375CCD711225EED40064B3AE /* PhFacebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 375CCD6F1225EED40064B3AE /* PhFacebook.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,8 +35,6 @@
 		309BA06C17F0321100866E64 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		309BA06D17F0321F00866E64 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		309BA06E17F0322E00866E64 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		309CA11017731DBA008897F3 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		309CA11117731DBA008897F3 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		30A879E217BBA671006580CF /* error_message.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = error_message.css; sourceTree = "<group>"; };
 		30A879E417BBB0D6006580CF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		32DBCF5E0370ADEE00C91783 /* PhFacebook_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhFacebook_Prefix.pch; path = private/PhFacebook_Prefix.pch; sourceTree = "<group>"; };
@@ -83,7 +79,6 @@
 		0867D691FE84028FC02AAC07 /* PhFacebook */ = {
 			isa = PBXGroup;
 			children = (
-				309CA10E17731D82008897F3 /* Third Party */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
@@ -157,23 +152,6 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
-		309CA10E17731D82008897F3 /* Third Party */ = {
-			isa = PBXGroup;
-			children = (
-				309CA10F17731D8F008897F3 /* JSONKit */,
-			);
-			name = "Third Party";
-			sourceTree = "<group>";
-		};
-		309CA10F17731D8F008897F3 /* JSONKit */ = {
-			isa = PBXGroup;
-			children = (
-				309CA11017731DBA008897F3 /* JSONKit.h */,
-				309CA11117731DBA008897F3 /* JSONKit.m */,
-			);
-			name = JSONKit;
-			sourceTree = "<group>";
-		};
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,7 +172,6 @@
 				375CCD711225EED40064B3AE /* PhFacebook.h in Headers */,
 				374AB110122CB847004A5C23 /* Debug.h in Headers */,
 				304CBCCD1739287300C562F6 /* WebView+PhFacebook.h in Headers */,
-				309CA11217731DBA008897F3 /* JSONKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +256,6 @@
 				378DEC161228B9FD008061E4 /* PhWebViewController.m in Sources */,
 				37FB6FEE122AD367006339F3 /* PhAuthenticationToken.m in Sources */,
 				304CBCCE1739287300C562F6 /* WebView+PhFacebook.m in Sources */,
-				309CA11317731DBA008897F3 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
