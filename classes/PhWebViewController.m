@@ -281,11 +281,7 @@
         WebDataSource *dataSource = [[sender mainFrame] dataSource];
         if ([[[dataSource response] MIMEType] isEqualToString:@"application/json"]) {
             NSDictionary *responseDict = nil;
-            if (NSAppKitVersionNumber >= NSAppKitVersionNumber10_7) {
-                responseDict = (NSDictionary *) [NSJSONSerialization JSONObjectWithData:[dataSource data] options:0 error:nil];
-            } else {
-                responseDict = (NSDictionary *) [[JSONDecoder decoder] objectWithData:[dataSource data] error:nil];
-            }
+			responseDict = (NSDictionary *) [NSJSONSerialization JSONObjectWithData:[dataSource data] options:0 error:nil];
             NSLog(@"Error when loading Facebook page: %@", responseDict);
             [self showError:[self errorFromFacebookError:[responseDict valueForKey:@"error"]]];
         } else {
