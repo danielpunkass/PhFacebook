@@ -8,3 +8,5 @@
  
 "FBAuthWindowTitle" = "Facebook Authentication";
 "FBAuthWindowCancel" = "Cancel";
+"FBAuthWindowErrorIntro" = "Facebook authentication not available";
+"FBAuthWindowErrorGenericMessage" = "Please try again later.";

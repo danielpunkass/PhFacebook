@@ -1,0 +1,12 @@
+/* 
+   Localizable.strings
+   PhFacebook
+
+   Created by Philippe on 10-08-29.
+   Copyright 2010 Philippe Casgrain. All rights reserved.
+ */
+ 
+"FBAuthWindowTitle" = "Logga in på Facebook";
+"FBAuthWindowCancel" = "Avbryt";
+"FBAuthWindowErrorIntro" = "Logga in-funktionen för Facebook är inte i bruk.";
+"FBAuthWindowErrorGenericMessage" = "Pröva på nytt senare";

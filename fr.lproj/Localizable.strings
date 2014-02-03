@@ -6,5 +6,7 @@
    Copyright 2010 Philippe Casgrain. All rights reserved.
  */
 
-"FBAuthWindowTitle" = "Autorisation Facebook";
+"FBAuthWindowTitle" = "Authentification Facebook";
 "FBAuthWindowCancel" = "Annuler";
+"FBAuthWindowErrorIntro" = "Authentification Facebook non disponible";
+"FBAuthWindowErrorGenericMessage" = "Veuillez réessayer ultérieurement.";
