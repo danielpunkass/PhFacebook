@@ -10,7 +10,6 @@
 #import "PhFacebook_URLs.h"
 #import "PhFacebook.h"
 #import "Debug.h"
-#import "JSONKit.h"
 
 //#define ALWAYS_SHOW_UI
 
