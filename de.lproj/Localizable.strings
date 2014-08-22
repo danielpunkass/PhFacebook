@@ -1,0 +1,12 @@
+/* 
+   Localizable.strings
+   PhFacebook
+
+   Created by Philippe on 10-08-29.
+   Copyright 2010 Philippe Casgrain. All rights reserved.
+ */
+ 
+"FBAuthWindowTitle" = "Facebook-Authentifizierung";
+"FBAuthWindowCancel" = "Abbrechen";
+"FBAuthWindowErrorIntro" = "Facebook-Authentifizierung nicht möglich";
+"FBAuthWindowErrorGenericMessage" = "Bitte versuchen Sie es später erneut.";

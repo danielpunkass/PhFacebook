@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3003932F17BA7833000912DE /* error_message.html in Resources */ = {isa = PBXBuildFile; fileRef = 3003932E17BA7833000912DE /* error_message.html */; };
+		304CBCCD1739287300C562F6 /* WebView+PhFacebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 304CBCCB1739287300C562F6 /* WebView+PhFacebook.h */; };
+		304CBCCE1739287300C562F6 /* WebView+PhFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 304CBCCC1739287300C562F6 /* WebView+PhFacebook.m */; };
+		309CA11217731DBA008897F3 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 309CA11017731DBA008897F3 /* JSONKit.h */; };
+		309CA11317731DBA008897F3 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 309CA11117731DBA008897F3 /* JSONKit.m */; };
+		30A879E317BBA671006580CF /* error_message.css in Resources */ = {isa = PBXBuildFile; fileRef = 30A879E217BBA671006580CF /* error_message.css */; };
 		374AB110122CB847004A5C23 /* Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 374AB10F122CB846004A5C23 /* Debug.h */; };
 		375CCD711225EED40064B3AE /* PhFacebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 375CCD6F1225EED40064B3AE /* PhFacebook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		375CCD721225EED40064B3AE /* PhFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 375CCD701225EED40064B3AE /* PhFacebook.m */; };
@@ -14,7 +20,7 @@
 		378DEC161228B9FD008061E4 /* PhWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378DEC141228B9FD008061E4 /* PhWebViewController.m */; };
 		37FB6F89122ACEB6006339F3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37FB6F87122ACEB6006339F3 /* Localizable.strings */; };
 		37FB6FEE122AD367006339F3 /* PhAuthenticationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB6FEC122AD367006339F3 /* PhAuthenticationToken.m */; };
-		37FB72D4122B5C7D006339F3 /* FacebookBrowser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37FB72D3122B5C7D006339F3 /* FacebookBrowser.xib */; };
+		37FB72D4122B5C7D006339F3 /* PhWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37FB72D3122B5C7D006339F3 /* PhWebViewController.xib */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -24,6 +30,17 @@
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		089C1667FE841158C02AAC07 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		3003932E17BA7833000912DE /* error_message.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = error_message.html; sourceTree = "<group>"; };
+		304CBCCB1739287300C562F6 /* WebView+PhFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WebView+PhFacebook.h"; sourceTree = "<group>"; };
+		304CBCCC1739287300C562F6 /* WebView+PhFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WebView+PhFacebook.m"; sourceTree = "<group>"; };
+		309BA06B17F031F300866E64 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		309BA06C17F0321100866E64 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		309BA06D17F0321F00866E64 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		309BA06E17F0322E00866E64 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		309CA11017731DBA008897F3 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		309CA11117731DBA008897F3 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		30A879E217BBA671006580CF /* error_message.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = error_message.css; sourceTree = "<group>"; };
+		30A879E417BBB0D6006580CF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		32DBCF5E0370ADEE00C91783 /* PhFacebook_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhFacebook_Prefix.pch; path = private/PhFacebook_Prefix.pch; sourceTree = "<group>"; };
 		374AB10F122CB846004A5C23 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Debug.h; path = private/Debug.h; sourceTree = "<group>"; };
 		375CCD6F1225EED40064B3AE /* PhFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhFacebook.h; path = classes/PhFacebook.h; sourceTree = "<group>"; };
@@ -36,7 +53,7 @@
 		37FB6FBD122AD1DA006339F3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		37FB6FEB122AD367006339F3 /* PhAuthenticationToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhAuthenticationToken.h; path = classes/PhAuthenticationToken.h; sourceTree = "<group>"; };
 		37FB6FEC122AD367006339F3 /* PhAuthenticationToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhAuthenticationToken.m; path = classes/PhAuthenticationToken.m; sourceTree = "<group>"; };
-		37FB72D3122B5C7D006339F3 /* FacebookBrowser.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacebookBrowser.xib; sourceTree = "<group>"; };
+		37FB72D3122B5C7D006339F3 /* PhWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhWebViewController.xib; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* PhFacebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhFacebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -66,6 +83,7 @@
 		0867D691FE84028FC02AAC07 /* PhFacebook */ = {
 			isa = PBXGroup;
 			children = (
+				309CA10E17731D82008897F3 /* Third Party */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
@@ -87,7 +105,9 @@
 		089C1665FE841158C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				37FB72D3122B5C7D006339F3 /* FacebookBrowser.xib */,
+				30A879E217BBA671006580CF /* error_message.css */,
+				3003932E17BA7833000912DE /* error_message.html */,
+				37FB72D3122B5C7D006339F3 /* PhWebViewController.xib */,
 				8DC2EF5A0486A6940098B216 /* Info.plist */,
 				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
 				37FB6F87122ACEB6006339F3 /* Localizable.strings */,
@@ -104,6 +124,7 @@
 				378DEC141228B9FD008061E4 /* PhWebViewController.m */,
 				37FB6FEB122AD367006339F3 /* PhAuthenticationToken.h */,
 				37FB6FEC122AD367006339F3 /* PhAuthenticationToken.m */,
+				304CBCCA1739274500C562F6 /* Categories */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -127,6 +148,32 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
+		304CBCCA1739274500C562F6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				304CBCCB1739287300C562F6 /* WebView+PhFacebook.h */,
+				304CBCCC1739287300C562F6 /* WebView+PhFacebook.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		309CA10E17731D82008897F3 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				309CA10F17731D8F008897F3 /* JSONKit */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		309CA10F17731D8F008897F3 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				309CA11017731DBA008897F3 /* JSONKit.h */,
+				309CA11117731DBA008897F3 /* JSONKit.m */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +193,8 @@
 			files = (
 				375CCD711225EED40064B3AE /* PhFacebook.h in Headers */,
 				374AB110122CB847004A5C23 /* Debug.h in Headers */,
+				304CBCCD1739287300C562F6 /* WebView+PhFacebook.h in Headers */,
+				309CA11217731DBA008897F3 /* JSONKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +239,11 @@
 				German,
 				en,
 				fr,
+				de,
+				it,
+				sv,
+				nb,
+				fi,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* PhFacebook */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -208,7 +262,9 @@
 			files = (
 				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
 				37FB6F89122ACEB6006339F3 /* Localizable.strings in Resources */,
-				37FB72D4122B5C7D006339F3 /* FacebookBrowser.xib in Resources */,
+				37FB72D4122B5C7D006339F3 /* PhWebViewController.xib in Resources */,
+				3003932F17BA7833000912DE /* error_message.html in Resources */,
+				30A879E317BBA671006580CF /* error_message.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +278,8 @@
 				375CCD721225EED40064B3AE /* PhFacebook.m in Sources */,
 				378DEC161228B9FD008061E4 /* PhWebViewController.m in Sources */,
 				37FB6FEE122AD367006339F3 /* PhAuthenticationToken.m in Sources */,
+				304CBCCE1739287300C562F6 /* WebView+PhFacebook.m in Sources */,
+				309CA11317731DBA008897F3 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +299,11 @@
 			children = (
 				37FB6F88122ACEB6006339F3 /* en */,
 				37FB6FBD122AD1DA006339F3 /* fr */,
+				30A879E417BBB0D6006580CF /* de */,
+				309BA06B17F031F300866E64 /* it */,
+				309BA06C17F0321100866E64 /* sv */,
+				309BA06D17F0321F00866E64 /* nb */,
+				309BA06E17F0322E00866E64 /* fi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -252,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_MALLOC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -264,6 +328,7 @@
 				GCC_PREFIX_HEADER = private/PhFacebook_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@rpath";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = PhFacebook;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -273,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_MALLOC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;

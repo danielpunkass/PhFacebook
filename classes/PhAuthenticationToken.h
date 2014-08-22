@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface PhAuthenticationToken : NSObject
+@interface PhAuthenticationToken : NSObject <NSCoding>
 {
     NSString *_authenticationToken;
     NSDate *_expiry;
