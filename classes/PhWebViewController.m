@@ -15,7 +15,7 @@
 
 @interface PhWebViewController ()
 
-@property (retain) id popover;
+@property (retain) NSPopover *popover;
 
 /**
  Provide a dedicated undo manager for the web view since editing the login field would otherwise propagate
@@ -38,8 +38,9 @@
 
 // Designated initializer
 //
-- (id) init
+- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
+	// Disregard parameters - nib name is an implementation detail
 	if (self = [super initWithNibName:[self className] bundle:[NSBundle bundleForClass:[self class]]])
 	{
         self.undoManager = [[[NSUndoManager alloc] init] autorelease];
@@ -47,10 +48,9 @@
 	return self;
 }
 
-- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id) init
 {
-	// Disregard parameters - nib name is an implementation detail
-	return [self init];
+	return [self initWithNibName:nil bundle:nil];
 }
 
 - (void) dealloc
