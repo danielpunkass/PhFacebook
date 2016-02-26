@@ -12,13 +12,13 @@
 
 @class PhFacebook;
 
-@interface PhWebViewController : NSViewController <NSWindowDelegate>
+@interface PhWebViewController : NSViewController <NSWindowDelegate, NSPopoverDelegate>
 {
     IBOutlet NSWindow *window;
     IBOutlet WebView *webView;
     NSUndoManager *_undoManager;
     IBOutlet NSProgressIndicator *progressIndicator;
-    id _popover;
+    NSPopover *_popover;
     IBOutlet NSButton *cancelButton;
 
     PhFacebook *parent;

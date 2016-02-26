@@ -12,7 +12,6 @@
 #import "PhFacebook_URLs.h"
 #import "Debug.h"
 #import "WebView+PhFacebook.h"
-#import "JSONKit.h"
 
 #define kFBStoreAccessToken @"FBAStoreccessToken"
 #define kFBStoreTokenExpiry @"FBStoreTokenExpiry"
@@ -271,13 +270,8 @@
                                                freeWhenDone: NO];
         
         // Structured data returned from Facebook
-        
-        if (NSAppKitVersionNumber >= NSAppKitVersionNumber10_7) {
-            responseDict = (NSDictionary *) [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-        } else {
-            responseDict = (NSDictionary *) [[JSONDecoder decoder] objectWithData:data error:nil];
-        }
-        
+        responseDict = (NSDictionary *) [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+
         // May contain a Facebook error
         facebookError = [responseDict valueForKey:@"error"];
     }
