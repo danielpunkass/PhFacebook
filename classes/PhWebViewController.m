@@ -53,6 +53,11 @@
 	return [self initWithNibName:nil bundle:nil];
 }
 
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    return [super initWithCoder:coder];
+}
+
 - (void) dealloc
 {
     [[NSNotificationCenter defaultCenter] removeObserver:self];

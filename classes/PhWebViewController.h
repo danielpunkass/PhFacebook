@@ -12,7 +12,7 @@
 
 @class PhFacebook;
 
-@interface PhWebViewController : NSViewController <NSWindowDelegate, NSPopoverDelegate>
+@interface PhWebViewController : NSViewController <NSWindowDelegate, NSFileManagerDelegate, NSPopoverDelegate>
 {
     IBOutlet NSWindow *window;
     IBOutlet WebView *webView;
@@ -36,7 +36,8 @@
 @property (assign) PhFacebook *parent;
 @property (nonatomic, retain) NSString *permissions;
 
-
+- (instancetype)init NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithCoder:(NSCoder *)coder NS_DESIGNATED_INITIALIZER;
 - (void) setRelativeToRect:(NSRect)relativeToRect ofView:(NSView *)view;
 - (IBAction) cancel: (id) sender;
 

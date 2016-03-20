@@ -8,10 +8,11 @@
 //  Copyright 2010 Philippe Casgrain. All rights reserved.
 //
 
+#define GRAPH_API_VERSION "v2.3"
 
-#define kFBAuthorizeURL @"https://graph.facebook.com/oauth/authorize?client_id=%@&redirect_uri=%@&type=user_agent&display=popup"
+#define kFBAuthorizeURL @"https://graph.facebook.com/" GRAPH_API_VERSION "/oauth/authorize?client_id=%@&redirect_uri=%@&type=user_agent&display=popup"
 
-#define kFBAuthorizeWithScopeURL @"https://graph.facebook.com/oauth/authorize?client_id=%@&redirect_uri=%@&scope=%@&type=user_agent&display=popup"
+#define kFBAuthorizeWithScopeURL @"https://graph.facebook.com/" GRAPH_API_VERSION "/oauth/authorize?client_id=%@&redirect_uri=%@&scope=%@&type=user_agent&display=popup"
 
 #define kFBLoginSuccessURL @"https://www.facebook.com/connect/login_success.html"
 
@@ -21,10 +22,10 @@
 #define kFBExpiresIn   @"expires_in="
 #define kFBErrorReason @"error_description="
 
-#define kFBGraphApiGetURL @"https://graph.facebook.com/%@?access_token=%@"
-#define kFBGraphApiGetURLWithParams @"https://graph.facebook.com/%@&access_token=%@"
+#define kFBGraphApiGetURL @"https://graph.facebook.com/" GRAPH_API_VERSION "/%@?access_token=%@"
+#define kFBGraphApiGetURLWithParams @"https://graph.facebook.com/" GRAPH_API_VERSION "/%@&access_token=%@"
 
-#define kFBGraphApiPostURL @"https://graph.facebook.com/%@"
+#define kFBGraphApiPostURL @"https://graph.facebook.com/" GRAPH_API_VERSION "/%@"
 
 #define kFBGraphApiFqlURL @"https://api.facebook.com/method/fql.query?query=%@&access_token=%@&format=json"
 
