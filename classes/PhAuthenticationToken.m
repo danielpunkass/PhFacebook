@@ -28,6 +28,15 @@
     return self;
 }
 
+- (void)dealloc
+{
+    [_authenticationToken release];
+    [_expiry release];
+    [_permissions release];
+    
+    [super dealloc];
+}
+
 - (void) encodeWithCoder:(NSCoder *)coder
 {
     [coder encodeObject:self.authenticationToken forKey:@"authenticationToken"];
