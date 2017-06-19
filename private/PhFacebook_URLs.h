@@ -8,7 +8,7 @@
 //  Copyright 2010 Philippe Casgrain. All rights reserved.
 //
 
-#define GRAPH_API_VERSION "v2.3"
+#define GRAPH_API_VERSION "v2.9"        // Supported until July 2019
 
 #define kFBAuthorizeURL @"https://graph.facebook.com/" GRAPH_API_VERSION "/oauth/authorize?client_id=%@&redirect_uri=%@&type=user_agent&display=popup"
 
