@@ -210,10 +210,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
 				en,
 				fr,
 				de,
@@ -221,6 +217,8 @@
 				sv,
 				nb,
 				fi,
+				Base,
+				ja,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* PhFacebook */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
